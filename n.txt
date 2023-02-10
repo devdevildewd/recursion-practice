@@ -1,0 +1,14 @@
+subsequences -> a contiguos/non-contiguos sequences which follows the order.
+Example :
+arr = [3,1,2]
+{
+{}->empty
+3
+1
+2
+3 1
+1 2
+3 2
+3 1 2
+}
+above are the subsequeces of the array arr, 3 1 2 cannot be a subsequece as it doesn't follow the order of the array i.e. 3 before 1 and 2, 1 before 2.
